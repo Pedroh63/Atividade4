@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 int main()
@@ -14,10 +15,11 @@ int main()
     {
         printf("O primeiro valor é maior que o segundo");    
     }
-    else
+    else if (n1 == n2)
     {
-        printf("O segundo valor é maior que o primeiro");    
-        
+        printf("Os valores são iguais");    
     }
+    else
+    
+    printf("O segundo valor é maior do que o primeiro");
 }
-  
